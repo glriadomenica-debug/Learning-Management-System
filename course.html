@@ -20,17 +20,18 @@
 
   <body>
     <header
-      class="font-[Lexend] sticky top-0 z-10 bg-white-500 flex justify-between border-b-[1px] border-gray-200 px-8 py-5"
+      class="font-lexend sticky top-0 z-10 bg-blue-900 flex justify-between px-6 py-3"
     >
       <a href="" class="w-105px h-23px gap-16 py-2 px-8">
         <img src="./image/logo.svg" alt="logo" />
       </a>
       <nav class="">
-        <ul class="flex gap-4 text-md">
+        <ul
+          class="flex flex-col md:flex-row gap-4 text-md font-bold text-white items-center"
+        >
           <li><a href="Lms.html">Home</a></li>
           <li><a href="course.html">Course</a></li>
           <li><a href="about.html">About</a></li>
-          
           <li>
             <button
               class="bg-blue-500 py-2 px-4 hover:bg-blue-700 text-white font-bold rounded"
@@ -43,21 +44,62 @@
     </header>
 
     <section class="py-3 flex">
-      <div class="px-9">
-        <h2 class="font-bold text-lg py-2">THE #1 LMS FOR WORDPRESS</h2>
-        <h1 class="text-5xl">Create. Sell. Teach</h1>
-        <h2 class="py-6 italic text-xl">Build high-impact courses and grow your learning business-fast.</h2>
+      <div class="px-9 flex justify-between">
+        <div>
+          <h2 class="font-bold text-lg py-2">THE #1 LMS FOR WORDPRESS</h2>
+          <h1 class="text-5xl">Create. Sell. Teach</h1>
+          <h2 class="py-6 italic text-xl">
+            Build high-impact courses and grow your learning business-fast.
+          </h2>
 
           <a
-              href="https://www.learndash.com/learndash-lms/?_gl=1*1na0mk8*_up*MQ..*_ga*MjEyOTE0NjYwMS4xNzczMTA3ODIy*_ga_K1CKD539PJ*czE3NzMxMDc4MjIkbzEkZzAkdDE3NzMxMDc4MjIkajYwJGwwJGgxNjY1NjY0OTEz"
-              title=""
-              class="relative inline-flex items-center justify-center px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-900 border-2 border-transparent rounded-xl hover:bg-blue-900"
-              role="button"
-            >
-              Get LearnDash
-            </a>
+            href="https://www.learndash.com/learndash-lms/?_gl=1*1na0mk8*_up*MQ..*_ga*MjEyOTE0NjYwMS4xNzczMTA3ODIy*_ga_K1CKD539PJ*czE3NzMxMDc4MjIkbzEkZzAkdDE3NzMxMDc4MjIkajYwJGwwJGgxNjY1NjY0OTEz"
+            title=""
+            class="relative inline-flex items-center justify-center px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-900 border-2 border-transparent rounded-xl hover:bg-blue-900"
+            role="button"
+          >
+            Get LearnDash
+          </a>
+        </div>
+        <div>
+          <!-- https://www.youtube.com/watch?v=eRmStDFRXpA -->
+          <video class="h-150 w-150 rounded-lg px-3" controls>
+            <source
+              src="https://docs.material-tailwind.com/demo.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
+    </section>
 
+    <section class="text-center py-2">
+      <div>
+        <div>
+          <h2>LearnDash is trusted by brands including</h2>
+        </div>
+
+        <div class="">
+          <div class="">
+            <div class="">
+              <div class="">
+                <figure class="">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    width="243"
+                    height="94"
+                    src="https://www.learndash.com/wp-content/uploads/learndash-logo-yoast.png"
+                    alt="Yoast Logo"
+                    class=""
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
